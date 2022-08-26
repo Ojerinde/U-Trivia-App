@@ -36,9 +36,7 @@ All backend code follows [PEP8 style guidelines](https://www.python.org/dev/peps
 **Overall**:
 
 - Models are located in `models.py` file
-- Controllers are located in `app.py` file
-- The web frontend is located in `templates/`, which builds static assets deployed to the web server at `static/`.
-- Web forms for creating data are located in `form.py` file
+- Controllers are located in `__init__.py` file
 
 
 ## Getting Started
@@ -66,7 +64,7 @@ Populate the database using the `trivia.psql` file in the backend directory by r
 psql trivia < trivia.psql
 ```
 
-#### Backend
+### Backend
 It is a good practice to keep your app dependencies isolated by working a virtual environment.
 
 * To Initialize a virtual enviroment, run
@@ -77,16 +75,21 @@ python -m virtualenv env
 
 * To Activate the environment run
 
-`source env/bin/activate`
+```
+source env/bin/activate
+```
 
 **Note** - In Windows, the `env` does not have a `bin` directory. Therefore, you'd use the analogous command shown below:
 
-`source env/Scripts/activate`
+```
+source env/Scripts/activate
+```
 
 To run the backend application, you need to install the required packages by doing the following,
 
 * navigate into the backend folder
-* run `pip install -r requirements.txt`
+* run 
+  ```pip install -r requirements.txt```
 
 After succesfull installation of the packages, you can get the app running by running the following commands
 
@@ -100,7 +103,7 @@ flask run
 
 The application is run on `http://127.0.0.1:5000/` by default and is a proxy in the frontend configuration. 
 
-#### Frontend
+### Frontend
 The app is built with React so there is need to install the frontend dependencies using Node.js and NPM
 
 You can confirm if Node.js and NPM is installed successfully using the codes below
