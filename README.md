@@ -2,7 +2,10 @@
 
 ## Introduction
 
-Trivia APP is built around a RESTful API which performs all CRUD operations. As part of Udacity Fullstack Nanodegree, it is a project I built using all the concepts and skills I learnt throughout the lesson.
+Trivia app is a web-based bookshelf where user can play trivia games. They can add as well have quiz. It is an app that is built around a RESTful API which performs all CRUD operations. As part of Udacity Fullstack Nanodegree, it is a project I built using all the concepts and skills I learnt throughout the lesson.
+
+![image](https://user-images.githubusercontent.com/104495751/194056057-7abd931d-01c9-4d15-8364-64bf2def0bcb.png)
+
 
 The App does the following by the help of the built API,
 * Display questions
